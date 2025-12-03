@@ -16,14 +16,12 @@ const Skills = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black p-4 md:p-8">
       <div className="max-w-6xl mx-auto">
-        {/* Main Heading */}
         <div className="text-center mb-8 md:mb-12 mt-6">
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-2">
             Things I'm <span className="text-cyan-400">good at</span>
           </h1>
         </div>
 
-        {/* Development Section */}
         <div className="mb-8 md:mb-12 flex flex-col items-center">
           <div className="relative inline-flex items-center mb-6 md:mb-8">
             <div className="w-16 md:w-24 h-1 bg-gradient-to-r from-transparent to-cyan-500"></div>
@@ -33,7 +31,6 @@ const Skills = () => {
             <div className="w-16 md:w-24 h-1 bg-gradient-to-l from-transparent to-cyan-500"></div>
           </div>
 
-          {/* Skills Grid - Responsive */}
           <div className="w-full">
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4 md:gap-6">
               {skills.map((skill, index) => (
@@ -49,17 +46,14 @@ const Skills = () => {
                     min-h-[140px] md:min-h-[160px]
                   `}
                 >
-                  {/* Icon */}
                   <div className={`${skill.color} text-4xl md:text-5xl mb-3 md:mb-4 transform group-hover:scale-110 transition-transform duration-300`}>
                     {skill.icon}
                   </div>
                   
-                  {/* Skill Name */}
                   <p className="text-lg md:text-xl font-bold text-white text-center">
                     {skill.name}
                   </p>
                   
-                  {/* Hover Glow Effect */}
                   <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-cyan-500/5 to-blue-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
               ))}

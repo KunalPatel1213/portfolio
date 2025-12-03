@@ -16,7 +16,7 @@ const Resume = () => {
             >
               Some Work
             </span>
-          </h1>
+          </h1>+
         </div>
 
         {/* Video Container 1 */}
