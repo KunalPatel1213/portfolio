@@ -26,7 +26,7 @@ const Contact = () => {
       icon: Instagram,
       label: 'Instagram',
       value: '',
-      link: 'https://www.instagram.com/innocent_kunal__90?igsh=MXhkY2w2NWEyeG5rbw== ',
+      link: 'https://www.instagram.com/codewithkunal09?igsh=MW14cXRxOGJ4d2F1aQ==',
       bgColor: 'bg-gradient-to-br from-purple-400 to-pink-500',
       hoverColor: 'hover:from-purple-500 hover:to-pink-600'
     }
